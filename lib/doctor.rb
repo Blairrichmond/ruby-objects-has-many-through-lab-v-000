@@ -3,7 +3,7 @@ class Doctor
 
   def initialize(name)
     @name = name
-    @songs = []
+    @appointments = []
   end
 
   def add_song(song)
