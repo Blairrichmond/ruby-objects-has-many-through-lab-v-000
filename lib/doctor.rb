@@ -15,9 +15,9 @@ class Doctor
     @appointments
   end
 
-  def genres
-    @songs.collect do |song|
-      song.genre
+  def patients
+    @appointments.collect do |app|
+      app.patient
     end
   end
 end
