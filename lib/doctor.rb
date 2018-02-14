@@ -11,8 +11,8 @@ class Doctor
     app.patient = self
   end
 
-  def songs
-    @songs
+  def appointments
+    @appointments
   end
 
   def genres
